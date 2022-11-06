@@ -13,13 +13,16 @@ from flask import Flask, jsonify
 #################################################
 engine = create_engine("sqlite:///data.sqlite")
 
-# reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-# Passenger = Base.classes.passenger
+Occupancy= Base.classes.Occupancy_percentage
+Value = Base.classes.Value_estimate
+Gross_Rent = Base.classes.Gross_rent_percentage
+
+
 
 #################################################
 # Flask Setup
@@ -36,53 +39,100 @@ def welcome():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
-        f"/api/v1.0/gross_rent_{{est or per}}<br/>"
-        f"/api/v1.0/mortgage_{{est or per}}<br/>"
-        f"/api/v1.0/value_{{est or per}}<br/>"
-        f"/api/v1.0/tenure_{{est or per}}<br/>"
-        f"/api/v1.0/bedroom_{{est or per}}<br/>"
-        f"/api/v1.0/occupancy_{{est or per}}"
+        f"/api/v1.0/gross_rent_per<br/>"
+        f"/api/v1.0/value_est<br/>"
+        f"/api/v1.0/occupancy_per"
     )
 
 
-# @app.route("/api/v1.0/names")
-# def names():
-#     # Create our session (link) from Python to the DB
-#     session = Session(engine)
-
-#     """Return a list of all passenger names"""
-#     # Query all passengers
-#     results = session.query(Passenger.name).all()
-
-#     session.close()
-
-#     # Convert list of tuples into normal list
-#     all_names = list(np.ravel(results))
-
-#     return jsonify(all_names)
 
 
-# @app.route("/api/v1.0/passengers")
-# def passengers():
-#     # Create our session (link) from Python to the DB
-#     session = Session(engine)
+@app.route("/api/v1.0/occupancy_per")
+def occupancy():
+    #  Create our session (link) from Python to the DB
+    session = Session(engine)
 
-#     """Return a list of passenger data including the name, age, and sex of each passenger"""
-#     # Query all passengers
-#     results = session.query(Passenger.name, Passenger.age, Passenger.sex).all()
+    #get data from DB
+    results = session.query(Occupancy.State, Occupancy.Occupied, Occupancy.Vacant).all()
 
-#     session.close()
+    session.close()
 
-#     # Create a dictionary from the row data and append to a list of all_passengers
-#     all_passengers = []
-#     for name, age, sex in results:
-#         passenger_dict = {}
-#         passenger_dict["name"] = name
-#         passenger_dict["age"] = age
-#         passenger_dict["sex"] = sex
-#         all_passengers.append(passenger_dict)
+    #     Create a dictionary from the row data and append to a list of all_states
+    all_states = []
+    for State, Occupied, Vacant in results:
+       state_dict = {}
+       state_dict["state"] = State
+       state_dict["occupied"] = Occupied
+       state_dict["vacant"] = Vacant
+       all_states.append(state_dict)
 
-#     return jsonify(all_passengers)
+    return jsonify(all_states)
+
+
+@app.route("/api/v1.0/value_est")
+def value():
+    #  Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    #get data from DB
+    results = session.query(Value.state, Value.lessThan50, 
+    Value.fifty, 
+    Value.hundred, 
+    Value.hundredFifty, 
+    Value.threeHundred, 
+    Value.fiveHundred, 
+    Value.million).all()
+
+    session.close()
+
+    #     Create a dictionary from the row data and append to a list of all_states
+    all_states = []
+    for state, lessThan50, fifty, hundred, hundredFifty, threeHundred, fiveHundred, million in results:
+
+        state_dict = {}
+        state_dict["state"] = state
+        state_dict["lessThan50"] = lessThan50
+        state_dict["fifty"] = fifty
+        state_dict["hundred"] = hundred
+        state_dict["hundredFifty"] = hundredFifty
+        state_dict["threeHundred"] = threeHundred
+        state_dict["fiveHundred"] = fiveHundred
+        state_dict["million"] = million
+        all_states.append(state_dict)
+
+    return jsonify(all_states)
+
+
+
+@app.route("/api/v1.0/gross_rent_per")
+def grossRent():
+    #  Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    #get data from DB
+    results = session.query(Gross_Rent.state, Gross_Rent.lessThan15, 
+    Gross_Rent.fifteen, 
+    Gross_Rent.twenty, 
+    Gross_Rent.twentyfive, 
+    Gross_Rent.thirty, 
+    Gross_Rent.thirtyfive).all()
+
+    session.close()
+
+#     Create a dictionary from the row data and append to a list of all_states
+    all_states = []
+    for state, lessThan15, fifteen, twenty, twentyfive, thirty, thirtyfive in results:
+       state_dict = {}
+       state_dict["state"] = state
+       state_dict["lessThan15"] = lessThan15
+       state_dict["fifteen"] = fifteen
+       state_dict["twenty"] = twenty
+       state_dict["twentyfive"] = twentyfive
+       state_dict["thirty"] = thirty
+       state_dict["thirtyfive"] = thirtyfive
+       all_states.append(state_dict)
+
+    return jsonify(all_states)
 
 
 if __name__ == '__main__':
