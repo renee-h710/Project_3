@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Events</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div  class="container">
+    <div  class="row">
+      <div style="background-color:cadetblue;" class="col-md-12 jumbotron text-center">
+        <h1>Home Values By State</h1>
+        <p>Numbers on hover reflects the estimated number of houses in each price category for the selected state.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div style="background-color:darksalmon;" class="well">
+          <h5>Select A State:</h5>
+          <select id="selDataset" onchange="updatePlotly(this.value)"></select>
+        </div>
+        <div class="row">
+        <div class="col-md-12">
+        <div style="background-color:cadetblue;" class="col-md-12">
+            <div id="bar">
+            </div>
+           </div>
+      
+           </div>
+        </div> 
+ 
+      <p>Data Sources:<br />
+        <ul>
+            <li>
+                <a href="https://data.census.gov/cedsci/table?q=median%20home%20values%20&tid=ACSDP1Y2021.DP04">US Census Bureau - Report DP04 for year 2021</a>
+            </li>
+            </ul>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      
+      <script src="housePlot.js"></script>
+      
+    
+    </body>
+    
+    </html>
