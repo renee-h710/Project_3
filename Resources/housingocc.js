@@ -52,6 +52,12 @@ function createPie(occupiedAverage, vacantAverage){
     width: 500
   };
   
+// Title 
+let layout = {
+  title: "Average Occupancy vs Vacant Units in US" 
+};
+
+
   Plotly.newPlot('pie', data, layout);
 
 
