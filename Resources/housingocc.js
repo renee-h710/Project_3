@@ -12,6 +12,7 @@ function getData(query_url){
   return states;
 }
 
+
 let occupiedField = "occupied";
 let vacantField = "vacant";
 
