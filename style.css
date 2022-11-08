@@ -1,0 +1,21 @@
+header {
+    background-color: #52055c;
+    color:#52055c;
+    padding: 20px;
+}
+nav{
+    background-color: #52055c;
+    color: #52055c;
+}
+.navbar{
+    background-color: #52055c;
+    color:#52055c;
+    padding: 20px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+}  
+.container{
+    padding: 20px
+} 
