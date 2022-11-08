@@ -49,6 +49,39 @@
   
       <main role="main">
 
+        <div  class="container">
+          <div  class="row">
+            <div style="background-color:cadetblue;" class="col-md-12 jumbotron text-center">
+              <h1>Occupancy Percentages</h1>
+              <p>Numbers on hover reflects the percentage of homes in a state that are occupied</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div style="background-color:darksalmon;" class="well">
+                <h5>Select A State:</h5>
+                <select id="selDataset" onchange="updatePlotly(this.value)"></select>
+              </div>
+              <div class="row">
+              <div class="col-md-12">
+              <div style="background-color:cadetblue;" class="col-md-12">
+                  <div id="pie">
+                  </div>
+                 </div>
+            
+                 </div>
+              </div> 
+        <br>Data Sources:<br/>
+          <ul>
+              <li>
+                  <a href="https://data.census.gov/cedsci/table?q=median%20home%20values%20&tid=ACSDP1Y2021.DP04">US Census Bureau - Report DP04 for year 2021</a>
+              </li>
+              </ul>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+              <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+              <script src="Resources/housingocc.js"></script>
+            <main role="main">
+
 
 
     <!-- Bootstrap core JavaScript
