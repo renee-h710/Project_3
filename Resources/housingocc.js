@@ -28,27 +28,6 @@ function init() {
 
   }];
 
-  Plotly.newPlot("pie", data);
-}
-
-init();
-
-//Pull data from API and transform into lists
-// function getData(query_url){
-//     let response = fetch(query_url)
-//     let states = response.json();
-//     return states;
-// }
-
-// let occupiedField = "occupied";
-// let vacantField = "vacant";
-
-// //Get averages of data to use for plot, using metric for either the occupied or vacant list
-// function getMean(occupied, vacant){
-//   // Initialize variables to increment
-//   let occCount = occupied.length;
-//   let vacCount = vacant.length;
-//   let total = 0;
   
 
 //   //loop through each state to get sum and count of occupied or vacant list
@@ -75,12 +54,7 @@ init();
 
 //   }];
   
-//   var layout = {
-//     height: 400,
-//     width: 500
-//   };
-  
-// // Title 
+
 // let layout = {
 //   title: "Average Occupancy vs Vacant Units in US" 
 // };
