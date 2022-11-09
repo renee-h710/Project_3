@@ -12,7 +12,7 @@ function init() {
   vacantList = [];
   occupiedList = [];
   
-  d3.json(query_url, function(data){
+  d3.json(query_url).then( function(data){
   states = data.state
   vacantList = data.vacant
   occupiedList = data.occupied
