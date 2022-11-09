@@ -14,7 +14,7 @@ function init() {
 
   // get data from api
   d3.json(query_url).then( function(data){
-  console.log(data)
+  // console.log(data)
   // states = data['state']
    occupiedList = data.map(function(item){
     return item['occupied'];
@@ -23,8 +23,8 @@ function init() {
     return item.vacant;
    });
 
-    // console.log(occupiedList)
-    // console.log(vacantList)
+    console.log(occupiedList)
+    console.log(vacantList)
    
     //Create mean values using data 
     occMean = d3.mean(occupiedList)
@@ -41,9 +41,22 @@ function init() {
       name: 'Average Houses Occupied vs. Vacant',
   
     }];
-  
-    //create plot
-    Plotly.newPlot("pie", data);
+    var layout = [{
+      autosize: false,
+      // width: 400,
+      height: 800,
+      // margin: {
+      //   l: 190,//left margin
+      //   r: 80,//right margin
+      //   b: -10,//bottom margin
+      //   t: -200,//top margin
+      //   pad: 1
+      // },
+
+    }]
+   //create plot
+    Plotly.newPlot("pie", data,layout);
+   
   });
 
 
