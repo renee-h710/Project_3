@@ -71,21 +71,21 @@ var simplemaps_usmap_mapdata={
     state_specific: {
       HI: {
         name: "Hawaii",
-        description: "default",
+        description: "Less than 15.0 percent: 9.50%<br>15.0 to 19.9 percent: 11.30%<br>20.0 to 24.9 percent: 10.30%<br>25.0 to 29.9 percent: 10.90%<br>30.0 to 34.9 percent: 10.70%<br>35.0 percent or more: 47.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       AK: {
         name: "Alaska",
-        description: "default",
+        description: "Less than 15.0 percent: 13.30%<br>15.0 to 19.9 percent: 13.40%<br>20.0 to 24.9 percent: 11.80%<br>25.0 to 29.9 percent: 11.90%<br>30.0 to 34.9 percent: 10.60%<br>35.0 percent or more: 39.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       FL: {
         name: "Florida",
-        description: "default",
+        description: "Less than 15.0 percent: 8.40%<br>15.0 to 19.9 percent: 9.70%<br>20.0 to 24.9 percent: 11.90%<br>25.0 to 29.9 percent: 11.20%<br>30.0 to 34.9 percent: 9.70%<br>35.0 percent or more: 49.20%",
         color: "default",
         hover_color: "default",
         url: "default",
@@ -93,175 +93,175 @@ var simplemaps_usmap_mapdata={
       },
       NH: {
         name: "New Hampshire",
-        description: "default",
+        description: "Less than 15.0 percent: 12.50%<br>15.0 to 19.9 percent: 16.30%<br>20.0 to 24.9 percent: 12.20%<br>25.0 to 29.9 percent: 14.00%<br>30.0 to 34.9 percent: 8.20%<br>35.0 percent or more: 36.70%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       VT: {
         name: "Vermont",
-        description: "default",
+        description: "Less than 15.0 percent: 11.30%<br>15.0 to 19.9 percent: 14.10%<br>20.0 to 24.9 percent: 12.80%<br>25.0 to 29.9 percent: 11.80%<br>30.0 to 34.9 percent: 9.50%<br>35.0 percent or more: 40.50%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       ME: {
         name: "Maine",
-        description: "default",
+        description: "Less than 15.0 percent: 14.10%<br>15.0 to 19.9 percent: 12.90%<br>20.0 to 24.9 percent: 11.80%<br>25.0 to 29.9 percent: 13.60%<br>30.0 to 34.9 percent: 11.80%<br>35.0 percent or more: 35.80%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       RI: {
         name: "Rhode Island",
-        description: "default",
+        description: "Less than 15.0 percent: 13.00%<br>15.0 to 19.9 percent: 11.60%<br>20.0 to 24.9 percent: 14.40%<br>25.0 to 29.9 percent: 12.60%<br>30.0 to 34.9 percent: 9.20%<br>35.0 percent or more: 39.10%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       NY: {
         name: "New York",
-        description: "default",
+        description: "Less than 15.0 percent: 13.50%<br>15.0 to 19.9 percent: 11.20%<br>20.0 to 24.9 percent: 11.60%<br>25.0 to 29.9 percent: 10.40%<br>30.0 to 34.9 percent: 9.30%<br>35.0 percent or more: 44.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       PA: {
         name: "Pennsylvania",
-        description: "default",
+        description: "Less than 15.0 percent: 15.70%<br>15.0 to 19.9 percent: 12.70%<br>20.0 to 24.9 percent: 12.40%<br>25.0 to 29.9 percent: 11.30%<br>30.0 to 34.9 percent: 9.10%<br>35.0 percent or more: 38.80%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       NJ: {
         name: "New Jersey",
-        description: "default",
+        description: "Less than 15.0 percent: 12.50%<br>15.0 to 19.9 percent: 11.80%<br>20.0 to 24.9 percent: 12.60%<br>25.0 to 29.9 percent: 11.50%<br>30.0 to 34.9 percent: 8.30%<br>35.0 percent or more: 43.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       DE: {
         name: "Delaware",
-        description: "default",
+        description: "Less than 15.0 percent: 12.40%<br>15.0 to 19.9 percent: 12.60%<br>20.0 to 24.9 percent: 12.80%<br>25.0 to 29.9 percent: 12.00%<br>30.0 to 34.9 percent: 6.60%<br>35.0 percent or more: 43.50%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MD: {
         name: "Maryland",
-        description: "default",
+        description: "Less than 15.0 percent: 10.80%<br>15.0 to 19.9 percent: 12.10%<br>20.0 to 24.9 percent: 13.90%<br>25.0 to 29.9 percent: 11.00%<br>30.0 to 34.9 percent: 9.00%<br>35.0 percent or more: 43.10%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       VA: {
         name: "Virginia",
-        description: "default",
+        description: "Less than 15.0 percent: 13.20%<br>15.0 to 19.9 percent: 13.40%<br>20.0 to 24.9 percent: 12.30%<br>25.0 to 29.9 percent: 11.60%<br>30.0 to 34.9 percent: 8.80%<br>35.0 percent or more: 40.70%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       WV: {
         name: "West Virginia",
-        description: "default",
+        description: "Less than 15.0 percent: 13.00%<br>15.0 to 19.9 percent: 13.80%<br>20.0 to 24.9 percent: 12.60%<br>25.0 to 29.9 percent: 10.90%<br>30.0 to 34.9 percent: 8.30%<br>35.0 percent or more: 41.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       OH: {
         name: "Ohio",
-        description: "default",
+        description: "Less than 15.0 percent: 15.90%<br>15.0 to 19.9 percent: 14.50%<br>20.0 to 24.9 percent: 13.10%<br>25.0 to 29.9 percent: 12.10%<br>30.0 to 34.9 percent: 8.30%<br>35.0 percent or more: 36.20%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       IN: {
         name: "Indiana",
-        description: "default",
+        description: "Less than 15.0 percent: 15.20%<br>15.0 to 19.9 percent: 14.00%<br>20.0 to 24.9 percent: 12.50%<br>25.0 to 29.9 percent: 11.40%<br>30.0 to 34.9 percent: 9.60%<br>35.0 percent or more: 37.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       IL: {
         name: "Illinois",
-        description: "default",
+        description: "Less than 15.0 percent: 14.40%<br>15.0 to 19.9 percent: 12.90%<br>20.0 to 24.9 percent: 12.90%<br>25.0 to 29.9 percent: 11.70%<br>30.0 to 34.9 percent: 8.70%<br>35.0 percent or more: 39.40%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       CT: {
         name: "Connecticut",
-        description: "default",
+        description: "Less than 15.0 percent: 11.70%<br>15.0 to 19.9 percent: 11.50%<br>20.0 to 24.9 percent: 12.40%<br>25.0 to 29.9 percent: 12.20%<br>30.0 to 34.9 percent: 9.30%<br>35.0 percent or more: 42.90%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       WI: {
         name: "Wisconsin",
-        description: "default",
+        description: "Less than 15.0 percent: 17.20%<br>15.0 to 19.9 percent: 14.80%<br>20.0 to 24.9 percent: 13.20%<br>25.0 to 29.9 percent: 11.50%<br>30.0 to 34.9 percent: 8.90%<br>35.0 percent or more: 34.40%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       NC: {
         name: "North Carolina",
-        description: "default",
+        description: "Less than 15.0 percent: 14.70%<br>15.0 to 19.9 percent: 13.20%<br>20.0 to 24.9 percent: 12.60%<br>25.0 to 29.9 percent: 10.80%<br>30.0 to 34.9 percent: 9.40%<br>35.0 percent or more: 39.40%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       DC: {
         name: "District of Columbia",
-        description: "default",
+        description: "Less than 15.0 percent: 13.50%<br>15.0 to 19.9 percent: 13.80%<br>20.0 to 24.9 percent: 13.50%<br>25.0 to 29.9 percent: 11.20%<br>30.0 to 34.9 percent: 9.20%<br>35.0 percent or more: 38.80%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MA: {
         name: "Massachusetts",
-        description: "default",
+        description: "Less than 15.0 percent: 12.00%<br>15.0 to 19.9 percent: 11.50%<br>20.0 to 24.9 percent: 12.30%<br>25.0 to 29.9 percent: 12.50%<br>30.0 to 34.9 percent: 9.70%<br>35.0 percent or more: 41.90%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       TN: {
         name: "Tennessee",
-        description: "default",
+        description: "Less than 15.0 percent: 14.40%<br>15.0 to 19.9 percent: 12.10%<br>20.0 to 24.9 percent: 13.00%<br>25.0 to 29.9 percent: 12.30%<br>30.0 to 34.9 percent: 8.90%<br>35.0 percent or more: 39.20%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       AR: {
         name: "Arkansas",
-        description: "default",
+        description: "Less than 15.0 percent: 16.50%<br>15.0 to 19.9 percent: 13.40%<br>20.0 to 24.9 percent: 13.40%<br>25.0 to 29.9 percent: 11.30%<br>30.0 to 34.9 percent: 10.10%<br>35.0 percent or more: 35.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MO: {
         name: "Missouri",
-        description: "default",
+        description: "Less than 15.0 percent: 15.40%<br>15.0 to 19.9 percent: 13.60%<br>20.0 to 24.9 percent: 13.80%<br>25.0 to 29.9 percent: 11.50%<br>30.0 to 34.9 percent: 9.10%<br>35.0 percent or more: 36.60%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       GA: {
         name: "Georgia",
-        description: "default",
+        description: "Less than 15.0 percent: 12.20%<br>15.0 to 19.9 percent: 12.40%<br>20.0 to 24.9 percent: 12.50%<br>25.0 to 29.9 percent: 11.50%<br>30.0 to 34.9 percent: 9.10%<br>35.0 percent or more: 42.40%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       SC: {
         name: "South Carolina",
-        description: "default",
+        description: "Less than 15.0 percent: 13.70%<br>15.0 to 19.9 percent: 12.50%<br>20.0 to 24.9 percent: 12.00%<br>25.0 to 29.9 percent: 11.00%<br>30.0 to 34.9 percent: 9.20%<br>35.0 percent or more: 41.60%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       KY: {
         name: "Kentucky",
-        description: "default",
+        description: "Less than 15.0 percent: 16.20%<br>15.0 to 19.9 percent: 12.40%<br>20.0 to 24.9 percent: 12.70%<br>25.0 to 29.9 percent: 13.00%<br>30.0 to 34.9 percent: 8.70%<br>35.0 percent or more: 36.90%",
         color: "default",
         zoomable: "no",
         hover_color: "default",
@@ -269,161 +269,161 @@ var simplemaps_usmap_mapdata={
       },
       AL: {
         name: "Alabama",
-        description: "default",
+        description: "Less than 15.0 percent: 15.10%<br>15.0 to 19.9 percent: 13.10%<br>20.0 to 24.9 percent: 11.00%<br>25.0 to 29.9 percent: 10.90%<br>30.0 to 34.9 percent: 9.00%<br>35.0 percent or more: 40.90%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       LA: {
         name: "Louisiana",
-        description: "default",
+        description: "Less than 15.0 percent: 12.40%<br>15.0 to 19.9 percent: 10.70%<br>20.0 to 24.9 percent: 10.60%<br>25.0 to 29.9 percent: 10.60%<br>30.0 to 34.9 percent: 8.10%<br>35.0 percent or more: 47.60%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MS: {
         name: "Mississippi",
-        description: "default",
+        description: "Less than 15.0 percent: 15.20%<br>15.0 to 19.9 percent: 12.30%<br>20.0 to 24.9 percent: 10.70%<br>25.0 to 29.9 percent: 9.50%<br>30.0 to 34.9 percent: 8.90%<br>35.0 percent or more: 43.40%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       IA: {
         name: "Iowa",
-        description: "default",
+        description: "Less than 15.0 percent: 16.80%<br>15.0 to 19.9 percent: 14.40%<br>20.0 to 24.9 percent: 12.60%<br>25.0 to 29.9 percent: 11.20%<br>30.0 to 34.9 percent: 8.30%<br>35.0 percent or more: 36.70%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MN: {
         name: "Minnesota",
-        description: "default",
+        description: "Less than 15.0 percent: 12.80%<br>15.0 to 19.9 percent: 12.70%<br>20.0 to 24.9 percent: 14.40%<br>25.0 to 29.9 percent: 11.70%<br>30.0 to 34.9 percent: 10.00%<br>35.0 percent or more: 38.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       OK: {
         name: "Oklahoma",
-        description: "default",
+        description: "Less than 15.0 percent: 15.70%<br>15.0 to 19.9 percent: 13.30%<br>20.0 to 24.9 percent: 13.30%<br>25.0 to 29.9 percent: 11.20%<br>30.0 to 34.9 percent: 9.30%<br>35.0 percent or more: 37.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       TX: {
         name: "Texas",
-        description: "default",
+        description: "Less than 15.0 percent: 11.50%<br>15.0 to 19.9 percent: 12.60%<br>20.0 to 24.9 percent: 13.30%<br>25.0 to 29.9 percent: 11.80%<br>30.0 to 34.9 percent: 8.80%<br>35.0 percent or more: 42.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       NM: {
         name: "New Mexico",
-        description: "default",
+        description: "Less than 15.0 percent: 15.90%<br>15.0 to 19.9 percent: 12.50%<br>20.0 to 24.9 percent: 10.60%<br>25.0 to 29.9 percent: 11.90%<br>30.0 to 34.9 percent: 8.40%<br>35.0 percent or more: 40.60%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       KS: {
         name: "Kansas",
-        description: "default",
+        description: "Less than 15.0 percent: 15.90%<br>15.0 to 19.9 percent: 15.30%<br>20.0 to 24.9 percent: 14.70%<br>25.0 to 29.9 percent: 11.10%<br>30.0 to 34.9 percent: 8.20%<br>35.0 percent or more: 34.70%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       NE: {
         name: "Nebraska",
-        description: "default",
+        description: "Less than 15.0 percent: 15.50%<br>15.0 to 19.9 percent: 14.10%<br>20.0 to 24.9 percent: 12.00%<br>25.0 to 29.9 percent: 12.40%<br>30.0 to 34.9 percent: 8.20%<br>35.0 percent or more: 37.80%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       SD: {
         name: "South Dakota",
-        description: "default",
+        description: "Less than 15.0 percent: 18.60%<br>15.0 to 19.9 percent: 16.10%<br>20.0 to 24.9 percent: 15.00%<br>25.0 to 29.9 percent: 11.70%<br>30.0 to 34.9 percent: 9.80%<br>35.0 percent or more: 28.80%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       ND: {
         name: "North Dakota",
-        description: "default",
+        description: "Less than 15.0 percent: 22.00%<br>15.0 to 19.9 percent: 14.40%<br>20.0 to 24.9 percent: 13.50%<br>25.0 to 29.9 percent: 8.80%<br>30.0 to 34.9 percent: 8.70%<br>35.0 percent or more: 32.60%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       WY: {
         name: "Wyoming",
-        description: "default",
+        description: "Less than 15.0 percent: 15.50%<br>15.0 to 19.9 percent: 13.70%<br>20.0 to 24.9 percent: 10.90%<br>25.0 to 29.9 percent: 11.80%<br>30.0 to 34.9 percent: 7.70%<br>35.0 percent or more: 40.20%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MT: {
         name: "Montana",
-        description: "default",
+        description: "Less than 15.0 percent: 19.90%<br>15.0 to 19.9 percent: 14.70%<br>20.0 to 24.9 percent: 13.00%<br>25.0 to 29.9 percent: 10.20%<br>30.0 to 34.9 percent: 8.30%<br>35.0 percent or more: 33.90%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       CO: {
         name: "Colorado",
-        description: "default",
+        description: "Less than 15.0 percent: 9.90%<br>15.0 to 19.9 percent: 11.70%<br>20.0 to 24.9 percent: 12.90%<br>25.0 to 29.9 percent: 12.20%<br>30.0 to 34.9 percent: 10.00%<br>35.0 percent or more: 43.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       UT: {
         name: "Utah",
-        description: "default",
+        description: "Less than 15.0 percent: 13.00%<br>15.0 to 19.9 percent: 12.90%<br>20.0 to 24.9 percent: 13.30%<br>25.0 to 29.9 percent: 12.50%<br>30.0 to 34.9 percent: 10.10%<br>35.0 percent or more: 38.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       AZ: {
         name: "Arizona",
-        description: "default",
+        description: "Less than 15.0 percent: 12.10%<br>15.0 to 19.9 percent: 12.10%<br>20.0 to 24.9 percent: 12.20%<br>25.0 to 29.9 percent: 12.20%<br>30.0 to 34.9 percent: 8.90%<br>35.0 percent or more: 42.50%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       NV: {
         name: "Nevada",
-        description: "default",
+        description: "Less than 15.0 percent: 10.50%<br>15.0 to 19.9 percent: 11.40%<br>20.0 to 24.9 percent: 11.80%<br>25.0 to 29.9 percent: 10.60%<br>30.0 to 34.9 percent: 9.40%<br>35.0 percent or more: 46.30%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       OR: {
         name: "Oregon",
-        description: "default",
+        description: "Less than 15.0 percent: 11.70%<br>15.0 to 19.9 percent: 12.00%<br>20.0 to 24.9 percent: 11.80%<br>25.0 to 29.9 percent: 12.90%<br>30.0 to 34.9 percent: 8.50%<br>35.0 percent or more: 43.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       WA: {
         name: "Washington",
-        description: "default",
+        description: "Less than 15.0 percent: 12.60%<br>15.0 to 19.9 percent: 12.80%<br>20.0 to 24.9 percent: 13.50%<br>25.0 to 29.9 percent: 12.10%<br>30.0 to 34.9 percent: 9.00%<br>35.0 percent or more: 40.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       CA: {
         name: "California",
-        description: "default",
+        description: "Less than 15.0 percent: 10.20%<br>15.0 to 19.9 percent: 10.90%<br>20.0 to 24.9 percent: 12.00%<br>25.0 to 29.9 percent: 11.20%<br>30.0 to 34.9 percent: 9.40%<br>35.0 percent or more: 46.40%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       MI: {
         name: "Michigan",
-        description: "default",
+        description: "Less than 15.0 percent: 13.50%<br>15.0 to 19.9 percent: 12.30%<br>20.0 to 24.9 percent: 12.30%<br>25.0 to 29.9 percent: 11.70%<br>30.0 to 34.9 percent: 9.10%<br>35.0 percent or more: 41.00%",
         color: "default",
         hover_color: "default",
         url: "default"
       },
       ID: {
         name: "Idaho",
-        description: "default",
+        description: "Less than 15.0 percent: 14.60%<br>15.0 to 19.9 percent: 13.00%<br>20.0 to 24.9 percent: 14.50%<br>25.0 to 29.9 percent: 11.20%<br>30.0 to 34.9 percent: 10.20%<br>35.0 percent or more: 36.50%",
         color: "default",
         hover_color: "default",
         url: "default"
@@ -447,7 +447,7 @@ var simplemaps_usmap_mapdata={
       },
       PR: {
         name: "Puerto Rico",
-        description: "default",
+        description: "Less than 15.0 percent: 11.90%<br>15.0 to 19.9 percent: 12.60%<br>20.0 to 24.9 percent: 11.70%<br>25.0 to 29.9 percent: 12.10%<br>30.0 to 34.9 percent: 9.00%<br>35.0 percent or more: 42.70%",
         color: "default",
         hover_color: "default",
         url: "default",
