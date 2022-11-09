@@ -27,7 +27,7 @@ Gross_Rent = Base.classes.Gross_rent_percentage
 #################################################
 app = Flask(__name__)
 
-CORS(application)
+CORS(app)
 #################################################
 # Flask Routes
 #################################################
