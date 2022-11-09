@@ -46,6 +46,7 @@ function createPie(occupiedAverage, vacantAverage){
     name: 'Average Houses Occupied vs. Vacant',
     hoverinfo: 'label+value'
   }];
+  console.log(data)
   
   var layout = {
     height: 400,
@@ -53,9 +54,9 @@ function createPie(occupiedAverage, vacantAverage){
   };
   
 // Title 
-let layout = {
-  title: "Average Occupancy vs Vacant Units in US" 
-};
+// let layout = {
+//   title: "Average Occupancy vs Vacant Units in US" 
+// };
 
 
   Plotly.newPlot('pie', data, layout);
