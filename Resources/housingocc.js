@@ -9,60 +9,46 @@ query_url = url + occupancySet;
 
 function init() {
   //Create mean startup plot for site
-  vacantList = [];
-  occupiedList = [];
-  
+  var occupiedList= [];
+  var vacantList= [];
+
+  // get data from api
   d3.json(query_url).then( function(data){
-  states = data.state
-  vacantList = data.vacant
-  occupiedList = data.occupied
-  })
-  occMean = d3.mean(occupiedList)
-  vacMean = d3.mean(vacantList)
+  console.log(data)
+  // states = data['state']
+   occupiedList = data.map(function(item){
+    return item['occupied'];
+   });
+   vacantList = data.map(function(item){
+    return item.vacant;
+   });
 
-  var data = [{
-    values: [occMean, vacMean],
-    labels: ['Occupied', 'Vacant'],
-    type: 'pie',
-    name: 'Average Houses Occupied vs. Vacant',
+    // console.log(occupiedList)
+    // console.log(vacantList)
+   
+    //Create mean values using data 
+    occMean = d3.mean(occupiedList)
+    vacMean = d3.mean(vacantList)
+    // console.log(occMean)
+    // console.log(vacMean)
 
-  }];
+      //plot data
+    var data = [{
+      values: [occMean, vacMean],
+      // values: [1, 2],
+      labels: ['Occupied', 'Vacant'],
+      type: 'pie',
+      name: 'Average Houses Occupied vs. Vacant',
+  
+    }];
+  
+    //create plot
+    Plotly.newPlot("pie", data);
+  });
+
+
 
   
+}
 
-//   //loop through each state to get sum and count of occupied or vacant list
-//   for (let i = 0; i<occupied.length;i++){
-//     row = occupied[i];
-
-//     total += row[metric];
-//     count += row[metric];
-//   }
-//   // Calculate the average value
-//   let meanValue = total / count;
-
-//   // Return the calculated average
-//   return meanValue;
-// }
-
-// //Build the plot
-// function createPie(occupiedAverage, vacantAverage){
-//   var data = [{
-//     values: [occupiedAverage, vacantAverage],
-//     labels: ['Occupied', 'Vacant'],
-//     type: 'pie',
-//     name: 'Average Houses Occupied vs. Vacant',
-
-//   }];
-  
-
-// let layout = {
-//   title: "Average Occupancy vs Vacant Units in US" 
-// };
-
-
-//   Plotly.newPlot('pie', data, layout);
-
-
-// }
-
-
+init();
