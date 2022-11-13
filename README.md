@@ -26,5 +26,8 @@ This will reflect the average percentage of household income is used towards ren
 ## Data Extracted From
 US Census Bureau - Report DP04
 
+#Flask app JSON data can be found at:
+https://real-estate-data.azurewebsites.net/
+
 ## Programs Used
 HTML, JavaScript, Jupyter Notebook, Bootstrap, JSON, Flask app
